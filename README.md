@@ -1,13 +1,16 @@
-# Launching a 10K NFT collection on the Core Network
+# 10K NFT Collection on Core
 
 ## Pre-requisites
-Following are the pre-requisites tools that you'll need: 
-- [Node.js](https://nodejs.org/) 
-- [Visual Studio Code (VSCode)](https://visualstudio.microsoft.com/) 
+
+Following are the pre-requisites tools that you'll need:
+
+- [Node.js](https://nodejs.org/)
+- [Visual Studio Code (VSCode)](https://visualstudio.microsoft.com/)
 - [Git](https://git-scm.com/)
 - [Metamask](https://metamask.io/)
 
 ## Configure Git CLI
+
 - Open your favorite terminal.
 - Run `gh --version` to ensure that you have installed the Git CLI successfully.
 - Run `gh auth login --web` in your terminal and follow the steps given below:
@@ -19,9 +22,7 @@ Following are the pre-requisites tools that you'll need:
 
 ## Contract Deployment
 
-- Fork and clone the repo by running `gh repo fork https://github.com/0xmetaschool/10k-nft-boilderplate.git --clone `.
-- Navigate into the folder using `cd 10k-nft-boilderplate/backend`.
-- Install dependencies by running `npm install`.
+- Install dependencies by running `npm install` for frontend and backend.
 - Create **.env** file and place your Private Key inside it.
 - Run `npx hardhat compile` to compile.
 - Run `npx hardhat ignition deploy ./ignition/modules/NFT.js --network core_testnet` to deploy.

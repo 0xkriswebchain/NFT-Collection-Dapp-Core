@@ -1,13 +1,19 @@
-# Sample Hardhat Project
+# NFT Core Backend
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a Hardhat Ignition module that deploys that contract.
+This repository contains the backend for the NFT Core project. It includes smart contracts, deployment scripts, and tests for managing an NFT collection.
 
-Try running some of the following tasks:
+## Pre-requisites
+
+Ensure you have the following installed:
+
+- [Node.js](https://nodejs.org/)
+- [npm](https://www.npmjs.com/)
+- [Hardhat](https://hardhat.org/)
+- [Git](https://git-scm.com/)
+- [Metamask](https://metamask.io/)
+
+## Setup
 
 ```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat ignition deploy ./ignition/modules/Lock.js
+cd nft-core-backend
 ```
